@@ -1,0 +1,8 @@
+v1.0.0
+	- Initial Verion!
+	- Basic flat syntax support
+v1.0.1
+	- Fixed false positives being tripped on variable names containing 'flat' as the first 4 		  letters.
+	- Flatted files are now evaluated directly after parsing.
+v1.0.2
+	- Added rudimentary importing of FlatJS files in the form of require_flat(...)
